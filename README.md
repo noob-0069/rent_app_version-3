@@ -8,6 +8,7 @@ For each vehicle we need fare rate and calculation of fare so i made a setter cl
 The main magic class is where the action is taking place...depending upon the vehicle type entered by user I created the corresponding object and printed the fare.</br>
 </br>
 **##FUTURE---**</br>
+</br>
 1)Addition of new vehicle very easy ..you need to enter new condition in magic class and also make a corresponding class for new invented vehicle.</br>
 </br>
 2)Also in case the fare rate of new vehicle is to be calculated upon different parameters just change the funcion in setter class.</br>
