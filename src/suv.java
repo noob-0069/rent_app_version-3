@@ -1,11 +1,14 @@
 public class suv extends vehicle{
     suv(String engine, String cool, String dest, int passen ){
+        //simple constructor and since we inherits vehicle class no need to write functions here
         vehicle_type="SUV";
-        engine_type=engine.toUpperCase();
-        cooling_type=cool.toUpperCase();
-        destination=dest.toUpperCase();
+        engine_type=engine;
+        cooling_type=cool;
+        destination=dest;
         passengers=passen;
         max_limit=5;
+
+        //to make code reusable we made setter class
         setters a=new setters();
         fare_rate=a.rate_decide(engine_type,cooling_type);
         distance=a.dist_calculator(destination);

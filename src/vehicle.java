@@ -1,3 +1,4 @@
+//the parent class where the layout ogf vehicle is defined along with the location where this vehicle is going
 public class vehicle {
     public String vehicle_type, engine_type, cooling_type, destination;
     public int passengers;
