@@ -1,11 +1,12 @@
 # rent_app_version-3
-A simple app where you enter the vehicle specs and destination and you will get the fare.</br>
 </br>
-Different kind of vehicles so I made a parent class vehicle and made subclasses which inherited them.</br>
+Start from the Entry class where we take input and make an object of magic class.</br>
 </br>
-For each vehicle we need fare rate and calculation of fare so i made a setter class.</br>
+In magic class the object is created of the corresponding vehicle type.</br>
 </br>
-The main magic class is where the action is taking place...depending upon the vehicle type entered by user I created the corresponding object and printed the fare.</br>
+Computation of different parameters like fare , distance etc needs to be done for every vehicle so setter class implemeted. Just make an object of it in every vehicle type and code will be reduced.</br>
+</br>
+The basic class is vehicle and subclasses are created that inherits the vehicle class .</br>
 </br>
 **##FUTURE---**</br>
 </br>
